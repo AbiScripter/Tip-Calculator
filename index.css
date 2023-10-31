@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-size: 28px;
+}
+.container {
+  width: 800px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 200 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  place-items: center;
+}
+
+label {
+  margin-right: 1rem;
+}
+
+button {
+  padding: 0.2rem 0.6rem;
+}
